@@ -17,5 +17,4 @@ public class Application extends Controller {
     	user.save();
     	return redirect(routes.Application.index());
     }
-
 }
